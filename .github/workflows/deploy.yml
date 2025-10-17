@@ -22,7 +22,7 @@ jobs:
           MONGO_INITDB_ROOT_USERNAME: root
           MONGO_INITDB_ROOT_PASSWORD: example
         ports:
-          - 27017:27018
+          - 27018:27017
     env:
       MONGODB_CONNECTION_PROTOCOL: mongodb
       # Name of service in case of job running on container that wants to use service running on container, bcoz github actions sets up a network between the containers.
